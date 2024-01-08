@@ -49,7 +49,7 @@ greatest_decrease = min(monthly_changes)
 greatest_increase_month = months[monthly_changes.index(greatest_increase)]
 greatest_decrease_month = months[monthly_changes.index(greatest_decrease)]
 
-# Financial analysis results
+# Analysis
 print("Financial Analysis")
 print("----------------------------")
 print(f"Total Months: {total_months}")
@@ -69,6 +69,6 @@ with open(output_file_path, "w") as output_file:
     output_file.write(f"Greatest Increase in Profits: {greatest_increase_month} (${greatest_increase})\n")
     output_file.write(f"Greatest Decrease in Profits: {greatest_decrease_month} (${greatest_decrease})\n")
 
-print(f"Financial analysis results have been saved to {output_file_path}.")
+
 
 
